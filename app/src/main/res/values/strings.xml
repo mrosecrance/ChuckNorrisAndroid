@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ChuckNorris</string>
+    <string name="joke_label">Reasons to not mess with Chuck Norris:</string>
+    <string name="joke_value">joke loading</string>
+    <string name="button_send">Next Reason</string>
+</resources>
