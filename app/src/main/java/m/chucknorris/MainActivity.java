@@ -22,6 +22,8 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
 
     @Override
@@ -30,6 +32,9 @@ public class MainActivity extends Activity {
         new HttpRequestTask().execute();
     }
 
+    public void sendMessage(View view) {
+        new HttpRequestTask().execute();
+    }
 
     /**
      * A placeholder fragment containing a simple view.
@@ -42,8 +47,7 @@ public class MainActivity extends Activity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.activity_main, container, false);
-            return rootView;
+            return  inflater.inflate(R.layout.activity_main, container, false);
         }
     }
 
